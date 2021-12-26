@@ -1,0 +1,65 @@
+.banner-section {
+    background-image: url('https://i.ibb.co/L1RdCzq/bitcoin-blockchain-digital-coin-crypto-currency-concept-background.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-intro{
+    color: white;
+    position: relative;
+    width: 50%;
+    top: 9em;
+    left: 55rem;
+    text-align: left;
+    line-height: 45px;
+}
+.banner-intro h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+.banner-intro p {
+    font-size: 25px;
+    width: 70%;
+    line-height: 35px;
+   
+}
+/* Mobile device */
+@media only screen and (max-width:688px) {
+    .banner-section {
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+        background-position: center;
+        background-size: cover;
+    }
+    .banner-intro {
+        color: white;
+        position: relative;
+        top: 1rem;
+        left: 7.5rem;
+        text-align: center;
+        border: 5px solid white;
+        padding: 0.5rem;
+        background-color: rgba(0, 0, 0, 0.486);
+    }
+    .banner-intro h1 {
+        font-size: 20px;
+    }
+    #crypto-title{
+        font-size: 25px !important;
+    }
+    #crypto-slogan{
+        font-size: 10px !important;
+    }
+    .banner-intro p {
+        font-size: 15px;
+        width: 100%;
+        line-height: 25px;
+    }
+}
+
+
+/* Tab */
+@media only screen and (min-width: 688px) and (max-width: 992px) {}

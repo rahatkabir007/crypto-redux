@@ -1,0 +1,46 @@
+.search-area{
+    width: 25%;
+    margin: 2rem auto;
+}
+.search-input{
+    font-size: 1.5rem;
+   
+}
+.crypto-card:hover a{
+    color: black !important;
+    
+}
+.card{
+    text-align: left;
+    margin: 1rem auto;
+    padding: 1rem 0.5rem;
+    transition: 0.5s;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card:hover{
+    background-color: #f7941abd;
+    color: black;
+    transform: scale(1.02);
+
+}
+.card-links{
+    text-decoration: none;
+    color: black;
+}
+.coins-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coins-title .h5{
+    font-size: 25px !important;
+}
+.coins-title img{
+    width: 15%;
+}
+/* Mobile device */
+@media only screen and (max-width:688px){
+    .search-area{
+        width: 50%;
+    }
+}

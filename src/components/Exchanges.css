@@ -1,0 +1,27 @@
+.spinners-section {
+    height: 90vh !important;
+}
+.accordion-button{
+    position: relative;
+    display: block;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: center;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+}
+.accordion-button::after{
+    display: none !important; 
+}
+.exchange-image{
+    width: 30px;
+    height: 30px;
+}
+.exchange-details a {
+    text-decoration: none;
+}

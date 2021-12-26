@@ -1,0 +1,58 @@
+.navbar {
+    background-color: #000040 !important;
+}
+
+.navbar-toggler {
+    font-size: 15px;
+    background-color: white;
+}
+
+.logo-area {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-area img {
+    width: 25%;
+}
+
+.logo-area a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 1.7rem;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.nav-links a:hover {
+    color: #f7931a;
+    border-bottom: 1px solid #f7931a;
+}
+
+/* Mobile device */
+@media only screen and (max-width:688px) {
+    .navbar{
+        text-align: center;
+    }
+    .logo-area {
+        width: 40%;
+    }
+    .nav-links a{
+        width: 50%;
+        margin: 0.5rem auto;
+    }
+}
+
+
+/* Tab */
+@media only screen and (min-width: 688px) and (max-width: 992px) {}

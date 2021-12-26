@@ -1,0 +1,43 @@
+.about-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+.about-text{
+    padding-right: 15px;
+    padding-left: 35px;
+}
+.about-text h1{
+    font-size: 48px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #000040;
+}
+#about-intro{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+#about-details{
+        font-size: 18px;
+        color: #75849a;
+        line-height: 1.6;
+}
+/* Mobile device */
+@media only screen and (max-width:688px){
+.about-section{
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.about-section img{
+    width: 100%;
+    margin: 0 auto;
+}
+.about-text{
+    margin-top: 20px;
+}
+}

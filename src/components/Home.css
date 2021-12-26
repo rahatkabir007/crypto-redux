@@ -1,0 +1,59 @@
+.global-stats{
+    background-color: #f7931a;
+    padding: 2rem;
+    margin-top: -5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.global-details{
+    margin: 1rem;
+    padding: 1rem;
+}
+.global-details h3{
+    color: white;
+   
+    font-weight: 400;
+}
+.global-details h2{
+    color: black;
+}
+.cryptocurrency-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cryptocurrency-container .section-title{
+    color: #000040;
+   
+}
+
+.show-more{
+    text-decoration: none;
+    color: white;
+    background-color: #f7931a;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.show-more:hover{
+    color: white;
+}
+
+/* Mobile device */
+@media only screen and (max-width:688px) {
+   .global-stats{
+       margin-top: 5rem;
+       padding: 0;
+   }
+   .global-details {
+       margin: 0;
+       padding: 0;
+   }
+   .cryptocurrency-container .section-title{
+       font-size: 20px;
+   }
+   .show-more{
+       font-size: 10px;
+   }
+}

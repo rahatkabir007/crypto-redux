@@ -1,0 +1,16 @@
+.crypto-card a{
+    text-decoration: none;
+    color: #000040;
+}
+.news-card{
+    padding: 0 !important;
+}
+.news-card img{
+    height: 200px;
+}
+@media only screen and (max-width:688px){
+    #news{
+        width: 25rem;
+        margin: 0.5rem auto;
+    }
+}
