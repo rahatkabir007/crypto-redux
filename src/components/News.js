@@ -13,7 +13,7 @@ const News = ({simplified}) => {
             .then(data => setCryptoNews(data[0].results));
     }, [])
 
-    if (!cryptoNews?.length) return (<div className='w-50 text-center mx-auto my-3'><Spinner animation="grow" /></div>);
+    if (!cryptoNews?.length) return (<div className='w-50 text-center mx-auto my-3 spinners-section'><Spinner animation="grow" /></div>);
     return (
         <Container>
             {

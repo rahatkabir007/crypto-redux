@@ -36,7 +36,7 @@ const CryptoDetails = () => {
     ];
     return (
         <Container>
-            <Row className="coin-detail-container">
+            <Row className="coin-detail-container my-4">
                 <Col className="coin-heading-container">
                     <h1 level={2} className="coin-name">
                         {data?.data?.coin.name} ({data?.data?.coin.slug}) Price
@@ -49,7 +49,7 @@ const CryptoDetails = () => {
                 <LineChart coinHistory={coinHistory} currentPrice={millify(cryptoDetails.price)} coinName={cryptoDetails.name} />
                 <Row className="stats-container">
                     <Col lg={4} className="coin-value-statistics mx-auto">
-                        <h1 className="coin-details-heading">{cryptoDetails.name} Value Statistics</h1>
+                        <h1 className="coin-details-heading fs-1">{cryptoDetails.name} Value Statistics</h1>
                         <p>An overview showing the statistics of {cryptoDetails.name}, such as the base and quote currency, the rank, and trading volume.</p>
                         {stats.map(({ icon, title, value }) => (
                             <Row className="coin-stats">
@@ -64,7 +64,7 @@ const CryptoDetails = () => {
                         ))}
                     </Col>
                     <Col lg={4} className="other-stats-info mx-auto">
-                        <h1 className="coin-details-heading">Other Statistics Info</h1>
+                        <h1 className="coin-details-heading fs-1">Other Statistics<br/> Info</h1>
                         <p>An overview showing the statistics of {cryptoDetails.name}, such as the base and quote currency, the rank, and trading volume.</p>
                         {genericStats.map(({ icon, title, value }) => (
                             <Row className="coin-stats" gy={4}>

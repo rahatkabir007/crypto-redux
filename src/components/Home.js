@@ -18,7 +18,7 @@ const Home = () => {
     const { data, isFetching } = useGetCryptosQuery(10);
     const globalStats = data?.data?.stats;
 
-    if (isFetching) return (<div className='w-50 text-center mx-auto my-3'><Spinner animation="grow" /></div>);
+    if (isFetching) return (<div className='w-50 text-center mx-auto my-3 spinners-section'><Spinner animation="grow" /></div>);
     return (
         <>
             <Banner />
